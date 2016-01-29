@@ -17,7 +17,7 @@ require 'book'
 describe Book do
 
   before do
-    @book = Book.new
+    @book = Book.new "Title"
   end
 
   describe 'title' do
